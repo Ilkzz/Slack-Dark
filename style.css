@@ -3754,9 +3754,18 @@ comments { -webkit-box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.25); box-shadow: in
 }
 
 .feature_sli_file_search #search_results.all .search_message_result {
+	border: 1px solid #3a3a3a;
 	background-color: #444;
 }
 
 .feature_sli_file_search #search_results.all .channel_link, .feature_sli_file_search #search_results.messages .channel_link {
 	color: white;
+}
+
+.feature_sli_file_search #search_results_container .heading {
+	background-color: #222;
+}
+
+.feature_sli_file_search #search_results.all .team_result {
+	background-color: #e8e8e8;
 }
